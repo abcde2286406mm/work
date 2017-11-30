@@ -1,1 +1,6 @@
 #实验一  JAVAIO
+定义字符流输入输出，用String获取数据，write()函数写入文件，read()函数从文件中读取字符传入int型变量中，在通过write()写入。
+![运行结果](https://github.com/abcde2286406mm/work/edit/master/JAVAIO PICTURE/JAVAIO.png)
+
+
+
