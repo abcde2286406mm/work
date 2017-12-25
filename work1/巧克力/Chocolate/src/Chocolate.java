@@ -1,18 +1,26 @@
 
 public class Chocolate {
+	
+
+	
+	
+	
+	
 	private boolean empty;
 	private boolean boiled;
-	private static Chocolate uniqueInstance;
-	private Chocolate(){
+//	private static Chocolate uniqueInstance;
+	Chocolate(){
 		empty=true;
 		boiled=false;
 	}
-	public static Chocolate getInstance(){
-		if(uniqueInstance == null){
-			uniqueInstance = new Chocolate();
-		}
-		return uniqueInstance;
-	}
+	
+//	public static Chocolate getInstance(){
+//		if(uniqueInstance == null){
+//			uniqueInstance = new Chocolate();
+//		}
+//		return uniqueInstance;
+//	}
+	
 	public void fill(){
 		if(empty==true){
 			System.out.println("加入巧克力和牛奶成功");
